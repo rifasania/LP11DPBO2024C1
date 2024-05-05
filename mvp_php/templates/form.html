@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+      
+        <title>DATA_JUDUL Pasien</title>
+      </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.php">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    
+      <br />
+      <br />
+ <div class="col-lg-6 m-auto">
+ 
+ <form method="post">
+ 
+ <br><br><div class="card">
+ 
+ <div class="card-header bg-primary">
+ <h1 class="text-white text-center">  DATA_JUDUL Pasien </h1>
+ </div><br>
+
+ <label> NIK: </label>
+ <input type="text" id="nik" name="nik" value="DATA_VAL_NIK" class="form-control"> <br>
+
+ <label> NAMA: </label>
+ <input type="text" id="nama" name="nama" value="DATA_VAL_NAMA" class="form-control"> <br>
+
+ <label> TEMPAT: </label>
+ <input type="text" id="tempat" name="tempat" value="DATA_VAL_TEMPAT" class="form-control"> <br>
+
+ <label> TANGGAL LAHIR: </label>
+ <input type="date" id="tl" name="tl" value="DATA_VAL_TL" class="form-control"> <br>
+
+ <label> GENDER: </label>
+ <select id="gender" name="gender" class="form-control" required>
+    DATA_GENDER
+</select>
+<br>
+
+ <label> EMAIL: </label>
+ <input type="text" id="email" name="email" value="DATA_VAL_EMAIL" class="form-control"> <br>
+
+ <label> TELP: </label>
+ <input type="text" id="telp" name="telp" value="DATA_VAL_TELP" class="form-control"> <br>
+
+ <button class="btn btn-success" type="submit" name="submit"> Submit </button><br>
+ <a class="btn btn-info" type="submit" name="cancel" href="index.php"> Cancel </a><br>
+
+ </div>
+ </form>
+ </div>
+</body>
+</html>
